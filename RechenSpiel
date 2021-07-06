@@ -1,0 +1,98 @@
+print("Versenke den Ball im Korb, indem du Matheaufgaben rechnest:")
+print(''' 
+
+                  |____                   o  
+              / ~~| \%/                      \ 
+              |                               \O
+              |                                |
+              |                                /|
+           ~~~~~~                             |  \ ''')
+print("\n")
+
+while True:
+    a1 = input("Berechne 32+44 = ")
+    a1 = int(a1)
+
+    if a1 == 76:
+        print(''' 
+
+                  |____                 o   
+              / ~~| \%/                      \ 
+              |                               \O
+              |                                |
+              |                                /|
+           ~~~~~~                             |  \ ''')
+        break
+    else:
+        print("Falsch !! Bitte nochmal")
+while True:
+    a2 = input("Berechne 81-29 = ")
+    a2 = int(a2)
+
+    if a2 == 52:
+        print(''' 
+
+              |____            o      
+          / ~~| \%/                      \ 
+          |                               \O
+          |                                |
+          |                                /|
+       ~~~~~~                             |  \ ''')
+        break
+    else:
+        print("Falsch !! Bitte nochmal")
+
+while True:
+    a3 = input("Berechne 23+59 = ")
+    a3 = int(a3)
+
+    if a3 == 82:
+        print(''' |
+
+              |____        o   
+          / ~~| \%/                      \ 
+          |                               \O
+          |                                |
+          |                                /|
+       ~~~~~~                             |  \ ''')
+        break
+    else:
+        print("Falsch !! Bitte nochmal")
+
+while True:
+    a4 = input("Berechne 77-44 = ")
+
+    a4 = int(a4)
+
+    if a4 == 33:
+        print(''' |
+
+              |____    o   
+          / ~~| \%/                      \ 
+          |                               \O
+          |                                |
+          |                                /|
+       ~~~~~~                             |  \ ''')
+        break
+    else:
+        print("Falsch !! Bitte nochmal")
+while True:
+
+    a5 = input("Berechne 88+31 = ")
+    a5 = int(a5)
+
+    if a5 == 119:
+        print(''' 
+
+              |____            
+          / ~~| \o/                      \ 
+          |                               \O
+          |                                |
+          |                                /|
+       ~~~~~~                             |  \ ''')
+        break
+    else:
+        print("Falsch !! Bitte nochmal")
+
+
+print("Geschafft, der Ball ist im Korb !!")
